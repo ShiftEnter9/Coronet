@@ -1,0 +1,101 @@
+/* -- Navbar -- */
+.navbar{
+	font-size: 1.2rem;
+	font-family: 'Merienda One', cursive;		
+ }
+ @media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+/*-- Footer-- */
+#footer{
+	padding-top: 1%;
+	background-color:#f8f9fa;
+	color:#111111;
+}
+#footer a{
+    color:#111111;
+    text-decoration:none;
+}
+.small{
+	font-size: small;
+}
+.medium{
+	font-size: medium;
+}
+#mail{
+	color:#111111;
+}
+#developer{
+	color:#111111;
+	text-decoration:none;
+}
+body{
+	font-family: 'Merienda One';	
+}
+
+/*Content*/
+.outer-container{
+	box-shadow: rgb(139, 141, 141) 1px 10px 6px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	padding:0.01em 16px;
+	margin-top:16px;
+	margin-bottom:16px;
+}
+.out_cont{
+	background: linear-gradient(180deg, #263e70 0%, #03091b 100%), linear-gradient(255.46deg, #B73E14 0%, #D65C32 100%);
+	padding-top: 3%;
+	padding-bottom: 2%;
+	color: white;
+	text-align: center;
+}
+#applications{
+	margin-top: 0%;
+	padding-top: 5%;
+}
+
+/*With Simple Caption*/
+
+#caption a{
+	text-decoration: none;
+	color: white;
+}
+
+#caption:hover .card-img-top {
+  	opacity: 0.7;
+}
+#caption:hover .img_caption {
+  	opacity: 0.75;
+}
+.img_caption{
+	font-size: 13px;
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-color: rgb(10, 24, 85);
+	margin-top: 2%;
+}
