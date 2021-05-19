@@ -31,22 +31,25 @@
     text-decoration: underline;
     transform: rotate(-90deg);
 } 
-
 /*-- Footer-- */
 #footer{
-	padding-bottom: 2%;
+	padding-bottom: 3%;
+	padding-top: 2%;
 	background-color:rgb(8, 8, 46);
-	color:white;
+	color: white;
+	background-image: url('images/footer_img.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
 }
 #footer a{
-    color:white;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
 }
-.small{
-	font-size: small;
-}
-.medium{
-	font-size: medium;
+.container_bottom{
+	padding-left: 11%; 
+	padding-right: 11%;
+
 }
 #mail{
 	color:#111111;
