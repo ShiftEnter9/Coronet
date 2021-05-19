@@ -34,12 +34,12 @@
 
 /*-- Footer-- */
 #footer{
-	padding-top: 1%;
-	background-color:#f8f9fa;
-	color:#111111;
+	padding-bottom: 2%;
+	background-color:rgb(8, 8, 46);
+	color:white;
 }
 #footer a{
-    color:#111111;
+    color:white;
     text-decoration:none;
 }
 .small{
@@ -70,13 +70,13 @@ body{
 	background: linear-gradient(180deg, #263e70 0%, #03091b 100%), linear-gradient(255.46deg, #B73E14 0%, #D65C32 100%);
 	padding-top: 3%;
 	padding-bottom: 2%;
-	padding-left: 22%;
+	text-align: center;
 }
 .out_cont a{
 	color: white;
 	font-weight: bold;
 	font-size: large;
-	padding-right: 100px;
+	padding-right: 30px;
 }
 
 .out_cont a:hover {
@@ -95,6 +95,9 @@ body{
 	margin-top: 0%;
 }
 #our-management{
+	margin-top: 0%;
+}
+#awards-achievement{
 	margin-top: 0%;
 }
 #about-coronet p{
@@ -132,7 +135,6 @@ body{
 }
 #box{
 	text-align: center;
-	padding-top: 15px;
 }
 /*modal*/
 .modal-header {
