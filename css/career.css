@@ -31,22 +31,25 @@
     text-decoration: underline;
     transform: rotate(-90deg);
 } 
-
 /*-- Footer-- */
 #footer{
-	padding-top: 1%;
-	background-color:#f8f9fa;
-	color:#111111;
+	padding-bottom: 3%;
+	padding-top: 2%;
+	background-color:rgb(8, 8, 46);
+	color: white;
+	background-image: url('images/footer_img.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
 }
 #footer a{
-    color:#111111;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
 }
-.small{
-	font-size: small;
-}
-.medium{
-	font-size: medium;
+.container_bottom{
+	padding-left: 11%; 
+	padding-right: 11%;
+
 }
 #mail{
 	color:#111111;
