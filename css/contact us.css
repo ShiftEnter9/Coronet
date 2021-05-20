@@ -31,6 +31,7 @@
     text-decoration: underline;
     transform: rotate(-90deg);
 } 
+
 /*-- Footer-- */
 #footer{
 	padding-bottom: 3%;
@@ -73,13 +74,13 @@ body{
 	background: linear-gradient(180deg, #263e70 0%, #03091b 100%), linear-gradient(255.46deg, #B73E14 0%, #D65C32 100%);
 	padding-top: 3%;
 	padding-bottom: 2%;
-	text-align: center;
+	padding-left: 22%;
 }
 .out_cont a{
 	color: white;
 	font-weight: bold;
 	font-size: large;
-	padding-right: 30px;
+	padding-right: 100px;
 }
 
 .out_cont a:hover {
@@ -88,92 +89,26 @@ body{
 .out_cont a.active {
   border-bottom: 4px solid white;
 }
-#header-content{
-	font-family: 'Merienda One';
-	text-align: center;
-	padding-right: 15%;
-	padding-bottom: 5%;
-}
-#about-coronet{
+#contact-detail {
 	margin-top: 0%;
 }
-#our-management{
+#business-enquiry {
 	margin-top: 0%;
 }
-#our-achievements{
-	margin-top: 0%;
-}
-#about-coronet p{
+#contact-detail div {
+	padding-left: 5%; 
 	margin-top: 3%;
-	margin-left: 12%;
-	margin-right: 12%;
+	padding-right: 5%; 
 	text-align:justify;
-	line-height: 2pc;
-	color: dimgray;
 }
-#our-management p{
-	padding-left: 4%; 
-	margin-top: 4%;
-	padding-right: 4%; 
+#contact-detail a{
+	text-decoration: none;
+	color: black;
 }
-#our-achievements p{
-	padding-left: 4%; 
-	margin-top: 4%;
-	padding-right: 4%; 
-}
-
-.img-box img{
-	width: 100%;
-	height: 100%;
-	display: block;
-	border-radius: 50%;
-}
-.img-box {
-	width: 135px;
-	height: 135px;
-	margin: 0 auto;
-	padding: 5px;
-	border: 1px solid #ddd;
-	border-radius: 50%;
-}
-#box h4{
-	text-align: center;	
-	margin-top: 5%;
-	font-family: 'Merienda One', cursive;	
-}
-#box{
-	text-align: center;
-}
-/*modal*/
-.modal-header {
-    border: solid rgb(63, 31, 151);
-    border-width: 0 0 0 5px;
-	display: block;
-	margin-top: 0;
-	text-align: left;
-	font-family: 'Merienda One', cursive;	
-}
-.modal-body {
-    position: relative;
- 
-}
-.btn-close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 40px;
-    height: 40px;
-    opacity: 1;
-    z-index: 99;
-}
-.modal-content{
-	padding: 15%  15%;
-	position: relative;
-}
-#para{
-	line-height: 32px;
-	text-align: justify;
-	font-size: medium;
+#business-enquiry div {
+	padding-left: 5%; 
+	margin-top: 2%;
+	padding-right: 5%; 
 }
 .btn1{
   background-color: #1a2144;
@@ -193,4 +128,17 @@ body{
 	transform: scale(1.2,1.2);
 	background-color:white
 
+}
+#box{
+	display: flex; 
+	flex-direction: row; 
+	align-items: center;
+	justify-content: center;
+}
+#form_box{
+	width: 80%; 
+	height: auto; 
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+	border-radius: 21px;
+	margin-left: 10%;
 }
