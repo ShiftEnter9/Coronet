@@ -100,7 +100,7 @@ body{
 #our-management{
 	margin-top: 0%;
 }
-#awards-achievement{
+#our-achievements{
 	margin-top: 0%;
 }
 #about-coronet p{
@@ -112,6 +112,11 @@ body{
 	color: dimgray;
 }
 #our-management p{
+	padding-left: 4%; 
+	margin-top: 4%;
+	padding-right: 4%; 
+}
+#our-achievements p{
 	padding-left: 4%; 
 	margin-top: 4%;
 	padding-right: 4%; 
